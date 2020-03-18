@@ -8,7 +8,7 @@ Contains all starting guideline for new JavaScript projects (formatting, linting
 
 First step, we need to install three extensions :
 
-```
+```bash
 code --install-extension eg2.tslint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
