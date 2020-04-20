@@ -17,7 +17,9 @@ code --install-extension esbenp.prettier-vscode
 
 Since it is a Javascript or Typescript project, you should install these dependencies :
 
-`npm i -D prettier eslint-config-prettier eslint-plugin-prettier tslint-config-prettier tslint-plugin-prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+```
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier tslint-config-prettier tslint-plugin-prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser husky stylelint stylelint-config-standard @commitlint/cli @commitlint/config-conventional 
+```
 
 Then, you copy all the files in this repository into your Javascript or Typescript folder, and all should be ok.
 
