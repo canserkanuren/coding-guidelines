@@ -15,12 +15,59 @@ code --install-extension esbenp.prettier-vscode
 
 #### _Note that these extensions are already marked as required in the `extensions.json` file, in the `.vscode` folder_
 
-Since it is a Javascript or Typescript project, you should install these dependencies :
+_Note_: You can also find all my vscode extensions in the project.
+
+### ESLint and Prettier
 
 ```bash
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier tslint-config-prettier tslint-plugin-prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser husky stylelint stylelint-config-standard stylelint-config-prettier @commitlint/cli @commitlint/config-conventional pretty-quick
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
-Then, you copy all the files in this repository into your Javascript or Typescript folder, and all should be ok.
+- `eslint`: Linter for JavaScript files
+- `prettier`: Formatter for JavaScript/TypeScript/JSON files
+- `eslint-config-prettier`: Config for prettier to make it work with ESLint
+- `eslint-plugin-prettier`: Plugin for eslint and prettier with rules already set
+- `@typescript-eslint/eslint-plugin`: Plugin for TypeScript files
+- `@typescript-eslint/parser`: Parser for TypeScript files made for ESLint
 
-You can also find my vscode extensions in the project.
+and then copy these files:
+
+- `.eslintrc.js`: Contains all the extensions, plugins and rules for ESLint
+- `.eslintignore`: Tells all the files to ignore for ESLint
+- `.prettierrc`: Config for prettier
+
+### Stylelint
+
+We install these package:
+
+```bash
+npm i -D stylelint stylelint-config-standard stylelint-config-prettier
+```
+
+- `stylelint`: Linter for css files
+- `stylelint-config-standard`: Standard config for stylelint
+- `stylelint-config-prettier`: Config for stylelint to make it work with Prettier
+
+and then copy these files:
+
+- `.stylelintrc`: Contains all the extensions for stylelint.
+
+### GitHub Hooks (husky, pretty-quick, commitlint)
+
+GitHub Hooks are made so that when somebody pushes code, it makes sure that some npm scripts are run, such as testing scripts or linting scripts.
+
+First of all, we install all these dependencies:
+
+```bash
+npm i -D husky @commitlint/cli @commitlint/config-conventional pretty-quick
+```
+
+- `husky`: GitHub Hooks
+- `@commitlint/cli`: Package that checks the message of the commit and sees if it fits the conventions defined by the project.
+- `@commitlint/config-conventional`: Commitlint conventions
+- `pretty-quick`: Package that runs Prettier on changed files.
+
+and then copy these files:
+
+- `.huskyrc`: defines all the hooks and scripts launched by GitHub hooks
+- `package.json > "commitlint"`: defines all the convention that are extended by this project.
