@@ -1,0 +1,28 @@
+{
+  "name": "coding-guidelines",
+  "version": "1.0.0",
+  "description": "Coding Guidelines for new JavaScript projects",
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.tsx,.ts --color",
+    "lint-styles": "stylelint \"src/**/*.scss\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canserkanuren/coding-guidelines.git"
+  },
+  "keywords": [
+    "guidelines",
+    "craftmanship"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "author": "Can Serkan UREN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canserkanuren/coding-guidelines/issues"
+  },
+  "homepage": "https://github.com/canserkanuren/coding-guidelines#readme"
+}
