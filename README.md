@@ -29,6 +29,7 @@ npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-je
 - `eslint-plugin-prettier`: Plugin for eslint and prettier with rules already set
 - `@typescript-eslint/eslint-plugin`: Plugin for TypeScript files
 - `@typescript-eslint/parser`: Parser for TypeScript files made for ESLint
+- `eslint-plugin-jest`: Plugin for Jest and ESLint
 
 and then copy these files:
 
@@ -41,12 +42,13 @@ and then copy these files:
 We install these package:
 
 ```bash
-npm i -D stylelint stylelint-config-standard stylelint-config-prettier
+npm i -D stylelint stylelint-config-standard stylelint-config-prettier stylelint-scss
 ```
 
 - `stylelint`: Linter for css files
 - `stylelint-config-standard`: Standard config for stylelint
 - `stylelint-config-prettier`: Config for stylelint to make it work with Prettier
+- `stylelint-scss`: Plugin for Stylelint to recognize scss files
 
 and then copy these files:
 
