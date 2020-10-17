@@ -20,7 +20,7 @@ _Note_: You can also find all my vscode extensions in the project.
 ### ESLint and Prettier
 
 ```bash
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 - `eslint`: Linter for JavaScript files
