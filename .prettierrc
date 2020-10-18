@@ -4,12 +4,15 @@
   "endOfLine": "auto",
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
   "printWidth": 80,
   "proseWrap": "preserve",
   "quoteProps": "as-needed",
-  "semi": true,
+  "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
-  "useTabs": false
+  "useTabs": false,
+  "parser": "babel"
 }

@@ -33,4 +33,6 @@ code --install-extension PKief.material-icon-theme
 code --install-extension ritwickdey.LiveServer
 code --install-extension RobbOwen.synthwave-vscode
 code --install-extension rubiin.nestjs
+code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension yzhang.markdown-all-in-one

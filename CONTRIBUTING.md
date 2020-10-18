@@ -18,11 +18,11 @@ format that includes a **type**, a **scope** and a **subject**:
 Samples:
 
 ```
-docs(dsrelease): update ds to beta.5 (#DS-OO1)
+docs(release): update app to beta.5
 ```
 
 ```
-feat(dsconventionalcommits): add conventional commits rules
+feat(conventionalcommits): add conventional commits rules
 
 making it easier for people to contribute to your projects,
 by allowing them to explore a more structured commit history.

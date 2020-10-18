@@ -20,39 +20,22 @@ _Note_: You can also find all my vscode extensions in the project.
 ### ESLint and Prettier
 
 ```bash
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm i babel-eslint prettier-eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-react -D
 ```
 
 - `eslint`: Linter for JavaScript files
 - `prettier`: Formatter for JavaScript/TypeScript/JSON files
+- `babel-eslint`: Parser for ESLint
+- `prettier-eslint`: Formatter for JavaScript/TypeScript/JSON files and to make compatibility between ESLint and Prettier work
 - `eslint-config-prettier`: Config for prettier to make it work with ESLint
 - `eslint-plugin-prettier`: Plugin for eslint and prettier with rules already set
-- `@typescript-eslint/eslint-plugin`: Plugin for TypeScript files
-- `@typescript-eslint/parser`: Parser for TypeScript files made for ESLint
-- `eslint-plugin-jest`: Plugin for Jest and ESLint
+- `eslint-plugin-react`: Plugin for React to be compatible
 
 and then copy these files:
 
 - `.eslintrc.js`: Contains all the extensions, plugins and rules for ESLint
 - `.eslintignore`: Tells all the files to ignore for ESLint
 - `.prettierrc`: Config for prettier
-
-### Stylelint
-
-We install these package:
-
-```bash
-npm i -D stylelint stylelint-config-standard stylelint-config-prettier stylelint-scss
-```
-
-- `stylelint`: Linter for css files
-- `stylelint-config-standard`: Standard config for stylelint
-- `stylelint-config-prettier`: Config for stylelint to make it work with Prettier
-- `stylelint-scss`: Plugin for Stylelint to recognize scss files
-
-and then copy these files:
-
-- `.stylelintrc`: Contains all the extensions for stylelint.
 
 ### GitHub Hooks (husky, pretty-quick, commitlint)
 
