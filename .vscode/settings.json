@@ -1,12 +1,13 @@
 {
   "editor.formatOnSave": true,
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  // "eslint.autoFixOnSave": true, // has been deprecated, use editor.codeActionsOnSave instead
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
@@ -16,12 +17,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
