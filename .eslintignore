@@ -14,6 +14,3 @@ polyfills.ts
 *.lock
 jest.config.js
 .eslintrc.js
-ios
-android
-www
