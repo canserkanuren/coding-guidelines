@@ -40,5 +40,6 @@ module.exports = {
   coverageDirectory: '<rootDir>/target/coverage',
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths || {}, {
     prefix: '<rootDir>/'
-  })
+  }),
+  transformIgnorePatterns: ['node_modules/(?!@ionic|@ionic-native)']
 };
