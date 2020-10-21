@@ -17,3 +17,4 @@ jest.config.js
 ios
 android
 www
+target
