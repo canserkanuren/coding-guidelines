@@ -1,9 +1,4 @@
 node_modules
-coverage
-dist
-e2e
-test.ts
-polyfills.ts
 !**/.eslintrc*
 *.svg
 *.ico
@@ -12,8 +7,4 @@ polyfills.ts
 *.md
 *.log
 *.lock
-jest.config.js
 .eslintrc.js
-ios
-android
-www

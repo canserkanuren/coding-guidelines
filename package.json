@@ -14,11 +14,6 @@
     "guidelines",
     "craftmanship"
   ],
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "author": "Can Serkan UREN",
   "license": "ISC",
   "bugs": {
