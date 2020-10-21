@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Coding Guidelines for new JavaScript projects",
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx,.tsx,.ts --color",
-    "lint-styles": "stylelint \"src/**/*.scss\" --fix"
+    "lint": "eslint . --ext .js,.jsx,.tsx,.ts --color"
   },
   "repository": {
     "type": "git",
