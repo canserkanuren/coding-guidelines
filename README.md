@@ -72,4 +72,4 @@ npm i -D husky @commitlint/cli @commitlint/config-conventional pretty-quick
 and then copy these files:
 
 - `.huskyrc`: defines all the hooks and scripts launched by GitHub hooks
-- `package.json > "commitlint"`: defines all the convention that are extended by this project.
+- `.commitlintrc`: defines all the GitHub hooks defined (pre-push, pre-commit, etc...)
