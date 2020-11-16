@@ -43,11 +43,6 @@ module.exports = {
       }
     ],
     'jest/no-test-prefixes': 'error',
-    '@typescript-eslint/no-parameter-properties': [
-      2,
-      {
-        allows: ['private', 'public']
-      }
-    ]
+    '@typescript-eslint/no-parameter-properties': 'off'
   }
 };
