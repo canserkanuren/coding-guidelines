@@ -7,6 +7,9 @@ code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.vscode-npm-script
+code --install-extension Equinusocio.vsc-community-material-theme
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension equinusocio.vsc-material-theme-icons
 code --install-extension esbenp.prettier-vscode
 code --install-extension fivethree.vscode-ionic-snippets
 code --install-extension fknop.vscode-npm
@@ -17,10 +20,12 @@ code --install-extension johnpapa.Angular2
 code --install-extension johnpapa.vscode-peacock
 code --install-extension johnpapa.winteriscoming
 code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension Mikael.Angular-BeastCode
 code --install-extension mikestead.dotenv
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-fr
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
@@ -33,4 +38,6 @@ code --install-extension PKief.material-icon-theme
 code --install-extension ritwickdey.LiveServer
 code --install-extension RobbOwen.synthwave-vscode
 code --install-extension rubiin.nestjs
+code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension yzhang.markdown-all-in-one
