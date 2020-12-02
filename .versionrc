@@ -1,0 +1,4 @@
+{
+  "releaseCommitMessageFormat": "chore(release): bump @@REPLACE_ME@@ to {{currentTag}}",
+  "tagPrefix": "@@REPLACE_ME@@-"
+}
