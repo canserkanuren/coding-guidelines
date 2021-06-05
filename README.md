@@ -15,7 +15,7 @@ code --install-extension esbenp.prettier-vscode
 
 #### _Note that these extensions are already marked as required in the `extensions.json` file, in the `.vscode` folder_
 
-_Note_: You can also find all my vscode extensions in the project.
+_Note_: You can also find all my Visual Studio Code extensions in the project.
 
 ### ESLint and Prettier
 
@@ -64,12 +64,52 @@ First of all, we install all these dependencies:
 npm i -D husky @commitlint/cli @commitlint/config-conventional pretty-quick
 ```
 
-- `husky`: GitHub Hooks
-- `@commitlint/cli`: Package that checks the message of the commit and sees if it fits the conventions defined by the project.
+- `husky`: GitHub Hooks, ran when some Git related action is performed.
+- `@commitlint/cli`: Package that checks the message of the commit and sees if it fits the conventions defined by the project (check [CONTRIBUTING.MD](CONTRIBUTING)).
 - `@commitlint/config-conventional`: Commitlint conventions
 - `pretty-quick`: Package that runs Prettier on changed files.
 
-and then copy these files:
+and then copy these files/folders:
 
 - `.huskyrc`: defines all the hooks and scripts launched by GitHub hooks
 - `.commitlintrc`: defines all the GitHub hooks defined (pre-push, pre-commit, etc...)
+
+[contributing]: https://github.com/canserkanuren/coding-guidelines/blob/master/CONTRIBUTING.md
+
+### Versionning
+
+When releasing features, or fixing bugs, you have to change your version manually. Some NPM packages allows you to do it automatically :
+
+```bash
+npm i -D standard-version
+```
+
+- `standard-version`: Depending on the latest commit that you made (you have to respect the conventions of the `@commitlint/config-conventional` package, described in the [CONTRIBUTING.MD](CONTRIBUTING) file), the package will bump the :
+  - major version, if your latest commit includes a Breaking Change
+  - minor version, if your latest commit is a newly implemented feature
+  - patch verison, if your latest commit is a bugfix
+
+and then copy :
+
+- `.versionrc`: contains the config for the standard-version package
+
+### Jest (only Angular related projects)
+
+By default, Angular uses Karma as default unit test runner. But with Karma, tests are run in a real DOM, hence the slowlyness of the framework.
+This is where Jest intervenes : it provides a faster unit test runner, and is way more trendy than Karma.
+
+To install it, run :
+
+```bash
+npm install -D jest jest-preset-angular @types/jest ts-jest jest-stare
+```
+
+- `jest`: Unit test runner
+- `jest-preset-angular`: Preset required to make Jest work with Angular
+- `@types/jest`: Types for Typescript for Jest package
+- `ts-jest`: Compiles Typescript files for Jest, allowing it to run unit tests
+- `jest-stare`: Jest report
+
+and then copy :
+
+- `jest.config.js`: contains all the default config for Jest

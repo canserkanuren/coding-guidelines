@@ -26,6 +26,7 @@ code --install-extension mikestead.dotenv
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-fr
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
@@ -35,9 +36,11 @@ code --install-extension mwood0904.clear-console
 code --install-extension natewallace.angular2-inline
 code --install-extension nrwl.angular-console
 code --install-extension PKief.material-icon-theme
+code --install-extension pranaygp.vscode-css-peek
 code --install-extension ritwickdey.LiveServer
 code --install-extension RobbOwen.synthwave-vscode
 code --install-extension rubiin.nestjs
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension wayou.vscode-todo-highlight
 code --install-extension yzhang.markdown-all-in-one
