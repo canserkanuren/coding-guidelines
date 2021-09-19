@@ -1,5 +1,8 @@
+#!/bin/bash
+
 code --install-extension abusaidm.html-snippets
 code --install-extension Angular.ng-template
+code --install-extension bradlc.vscode-tailwindcss
 code --install-extension ChakrounAnas.turbo-console-log
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
@@ -19,10 +22,12 @@ code --install-extension johnpapa.angular-essentials
 code --install-extension johnpapa.Angular2
 code --install-extension johnpapa.vscode-peacock
 code --install-extension johnpapa.winteriscoming
+code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension k--kato.intellij-idea-keybindings
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension Mikael.Angular-BeastCode
 code --install-extension mikestead.dotenv
+code --install-extension mongodb.mongodb-vscode
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-fr
 code --install-extension ms-vscode-remote.remote-containers
