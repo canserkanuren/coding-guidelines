@@ -1,0 +1,4 @@
+[pull]
+	rebase = true
+[alias]
+	fixup = commit -a --amend --reuse-message=HEAD
